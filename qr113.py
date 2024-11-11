@@ -129,7 +129,7 @@ if __name__ == "__main__":
 
     # QR code dropdown button
     with st.expander("📱 Run On Your Mobile: "):
-        url = "http://smartguide.streamlit.app"  # Replace with your actual deployment URL
+        url = "http://smartmanual.streamlit.app"  # Replace with your actual deployment URL
         qr_image = generate_qr_code(url, size=(250, 250))
         st.image(qr_image, caption="Scan to access deployment", use_column_width=False, width=250)
 
