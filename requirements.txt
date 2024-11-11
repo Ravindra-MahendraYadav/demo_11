@@ -1,7 +1,11 @@
 openai
 langchain
+langchain-community
 chromadb
 docx2txt
 pypdf
 streamlit
 tiktoken
+qrcode
+pillow 
+
